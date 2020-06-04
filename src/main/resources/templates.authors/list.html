@@ -14,9 +14,9 @@
         <th>Publisher</th>
     </tr>
     <tr th:each="author : ${authors}">
-        <td th:text="${book.id}">123</td>
-        <td th:text="${book.firstName}"> Spring in Action</td>
-        <td th:text="${book.lastName}">Wrox</td>
+        <td th:text="${author.id}">123</td>
+        <td th:text="${author.firstName}"> Spring in Action</td>
+        <td th:text="${author.lastName}">Wrox</td>
     </tr>
 </table>
 
